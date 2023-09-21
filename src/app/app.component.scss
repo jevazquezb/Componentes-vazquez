@@ -1,0 +1,22 @@
+app-toolbar {
+  box-sizing: border-box;
+  height: 10%;
+}
+
+div {
+  display: flex;
+  height: 90%;
+}
+
+app-sidebar {
+  background-color: #86b940;
+  width: 20%;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+app-content {
+  flex-grow: 1;
+}

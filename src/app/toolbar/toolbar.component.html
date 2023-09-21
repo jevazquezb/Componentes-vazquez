@@ -1,0 +1,10 @@
+<div class="toolbar">
+  <img class="logo" src="../../assets/img/logo.jpeg" alt="Saving glass logo" title="Saving glass logo">
+  <ul class="list">
+    <li class="social-item" *ngFor="let network of socialMedia">
+      <a class="link" [href]="network.link" target="_blank">
+        <img class="social-icon" [src]="network.src" [alt]="network.name" [title]="network.name">
+      </a>
+    </li>
+  </ul>
+</div>

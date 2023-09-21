@@ -1,0 +1,29 @@
+.toolbar {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: 5rem;
+}
+
+.social-item {
+  margin-left: 3%;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  width: 2rem;
+}

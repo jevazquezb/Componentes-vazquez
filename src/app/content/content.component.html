@@ -1,0 +1,10 @@
+<div>
+  <h1>Velas aromáticas</h1>
+  <ul>
+    <li *ngFor="let candle of candles">
+      <img class="social-icon" [src]="candle.src" [alt]="candle.name" [title]="candle.name">
+      <p>{{ candle.name }}</p>
+      <p>{{ candle.price | currency }}</p>
+    </li>
+  </ul>
+</div>
